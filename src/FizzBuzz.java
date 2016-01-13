@@ -1,7 +1,9 @@
 
 public class FizzBuzz {
     public String fizz(Integer inputNumber){
-        System.out.println("testing");
+        if(inputNumber % 3 == 0){
+            return "fizz";
+        }
         return inputNumber.toString();
 
     }
